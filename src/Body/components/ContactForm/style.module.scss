@@ -3,14 +3,36 @@
     flex-direction: column;
     justify-content: start;
     text-align: left;
-    margin-top: 160px;
+    margin-top: 100px;
 }
 
 .call {
-    margin-bottom: 160px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 100px;
 }
 
 .danger {
     display: flex;
+    justify-self: center;
+    text-align: center;
     margin-top: 40px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    max-width: 800px;
+    margin-bottom: 100px;
+}
+
+.required {
+    color: red;
+    margin-left: 0.35em;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.input_title {
+    font-size: 1.35rem;
+}
+
+.ellowSpan {
+    color: #eec64d;
 }

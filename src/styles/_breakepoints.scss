@@ -1,0 +1,12 @@
+@mixin bp-743 {
+    @media (max-width: 778px) {
+      @content;
+    }
+}
+
+
+@mixin bp-320 {
+    @media (max-width: 425px) {
+      @content;
+    }
+}

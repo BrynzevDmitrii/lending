@@ -1,0 +1,35 @@
+@import'../../../styles/breakepoints';
+
+.listPerfomanse {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    list-style-type: none;
+    background-color: #f2faef8c;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 80px;
+    @include bp-320 {
+        padding: 20px;
+    }
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.item {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 22px;
+}
