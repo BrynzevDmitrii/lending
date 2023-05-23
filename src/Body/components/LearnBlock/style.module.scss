@@ -33,3 +33,19 @@
 .description {
     font-size: 22px;
 }
+
+.btn_anchor {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    background-color: #2a587f;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}

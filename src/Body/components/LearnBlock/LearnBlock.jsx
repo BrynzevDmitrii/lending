@@ -1,6 +1,10 @@
 import styles from "./style.module.scss";
 
 export const LearnBlock = () => {
+const anchor = ()=> {
+  window.location.href = "#contactForm";
+}
+
   return (
     <ul className={styles.listPerfomanse}>
     <p className={styles.title}>Что будет :</p>
@@ -30,5 +34,7 @@ export const LearnBlock = () => {
   <li className={styles.item}>
     <p className={styles.description}>✅ Секрет прочного крепления украшений</p>
   </li>
+
+  <button className={styles.btn_anchor} onClick={()=>anchor()}>Купить курс</button>
 </ul>
   )}

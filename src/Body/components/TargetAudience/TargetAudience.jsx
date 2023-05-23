@@ -3,6 +3,9 @@ import icon from "./img/free-icon-pin-map-2435094 (1).png";
 import styles from "./style.module.scss";
 
 export const TargetAudience = () => {
+  const anchor = ()=> {
+    window.location.href = "#contactForm";
+  }
   return (
     <ul className={styles.listPerfomanse}>
         <p className={styles.title}>Для кого этот курс</p>
@@ -42,5 +45,6 @@ export const TargetAudience = () => {
         </div>
         <p className={styles.description}>Если вы хотите узнать больше о возможностях полимерной глины</p>
       </li>
+      <button className={styles.btn_anchor} onClick={()=>anchor()}>Купить курс</button>
     </ul>
   )}

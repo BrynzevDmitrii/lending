@@ -10,7 +10,7 @@ import { Corusel } from "./components/Carusel/Carusel";
 export const Body = () => {
     return (<section className={styles.body_wrapper}>
         <BannerBlock />
-        <Corusel />
+        {/* <Corusel /> */}
         <ContactForm />
         <TargetAudience />
         <LearnBlock />

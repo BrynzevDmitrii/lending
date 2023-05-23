@@ -30,7 +30,7 @@ export const ContactForm = () => {
       }
 
     return(
-        <div className={styles.contact_wrapper}>
+        <div className={styles.contact_wrapper} id="contactForm">
     <div className="container mt-10">
       <h2 className={styles.call}>Чтобы приоберсти мастер класс, заполните форму</h2>
       <form onSubmit={onSubmit} >
