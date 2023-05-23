@@ -1,0 +1,83 @@
+.item_first::after {
+    content: '';
+    background-image: url('./img/blue.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.item_thecont::after {
+    content: '';
+    background-image: url('./img/inHeandle.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.item_third::after {
+    content: '';
+    background-image: url('./img/naPalke.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.item_for::after {
+    content: '';
+    background-image: url('./img/naPalke2.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.item_five::after {
+    content: '';
+    background-image: url('./img/onStand.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.item_six::after {
+    content: '';
+    background-image: url('./img/rose.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}

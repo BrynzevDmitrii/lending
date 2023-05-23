@@ -13,6 +13,8 @@
 .call {
     font-family: 'Lobster', cursive;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
     @include bp-320 {
         margin-bottom: 40px;
     }
