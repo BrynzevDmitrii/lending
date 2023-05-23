@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import blue from "./img/blue.jpg"
 
 import styles from "./style.module.scss"
 
