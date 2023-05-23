@@ -1,14 +1,21 @@
+@import '../../../styles/breakepoints';
 .contact_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     text-align: left;
     margin-top: 100px;
+    @include bp-320 {
+        margin-top: 40px;
+    }
 }
 
 .call {
     font-family: 'Lobster', cursive;
     margin-bottom: 100px;
+    @include bp-320 {
+        margin-bottom: 40px;
+    }
 }
 
 .danger {

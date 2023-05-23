@@ -23,9 +23,28 @@
     }
     @include bp-320{
         background-image: url('./img/kolie320.jpg');
-        width: 338px;
-        height: 338px;
+        width: 300px;
+        height: 320px;
         border-radius: 10px
     }
 
+}
+
+.price {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+
+    background-color: #2a587f;;
+    color: rgb(255, 255, 255);
+
+    margin-top: 40px;
+
+    border-radius: 10px;
 }

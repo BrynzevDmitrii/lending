@@ -32,7 +32,7 @@ export const ContactForm = () => {
     return(
         <div className={styles.contact_wrapper}>
     <div className="container mt-10">
-      <h2 className={styles.call}>Чтобы приоберсти мастер класс, заполните форму.</h2>
+      <h2 className={styles.call}>Чтобы приоберсти мастер класс, заполните форму</h2>
       <form onSubmit={onSubmit} >
         <div className="mb-5">
           <label className="form-label" htmlFor="name">
