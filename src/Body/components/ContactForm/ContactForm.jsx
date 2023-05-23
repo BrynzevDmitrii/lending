@@ -2,7 +2,6 @@ import React from "react"
 import styles from "./style.module.scss"
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import axios from "axios"
-
 export const ContactForm = () => {
     const [formStatus, setFormStatus] = React.useState('Записаться на курс')
     const onSubmit = (e) => {
@@ -18,9 +17,16 @@ export const ContactForm = () => {
         console.log(conFom)
         axios.post("https://sheet.best/api/sheets/7f1d52ad-1f25-4f02-be60-7ac2e1603998", conFom).then(res =>res.status === 200 ? setFormStatus('Ура, вы записаны !' ):setFormStatus( 'упс... ошибочка'))
         name.value = ''
-
+        lastName.value=''
         email.value = ''
         phone.value = ''
+
+        let massage = " Новая заявка на мк 'В капельках росы' "
+
+        axios.post(`https://api.telegram.org/bot${process.env.REACT_APP_TOKEN}/sendMessage`, {
+          chat_id: process.env.REACT_APP_CHAT_ID,
+          text: massage
+        })
       }
 
     return(

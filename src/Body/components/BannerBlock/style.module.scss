@@ -16,13 +16,13 @@
     height: 700px;
     border-radius: 10px;
     @include bp-743 {
-        background-image: url('./img/photo_2023-05-20_15-38-43.jpg');
+        background-image: url('./img/kolie700.jpg');
         width: 700px;
         height: 700px;
         border-radius: 10px
     }
     @include bp-320{
-        background-image: url('./img/ferstLendingPhoto-320.jpg');
+        background-image: url('./img/kolie320.jpg');
         width: 338px;
         height: 338px;
         border-radius: 10px
