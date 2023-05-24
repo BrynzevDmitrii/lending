@@ -1,0 +1,86 @@
+.blure_wrapper {
+    position: absolute;
+    top:  70%;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    backdrop-filter: blur(2px);
+}
+
+
+.popup_container {
+    width: 598px;
+    height: 261px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #9b90908f;
+    border-radius: 8px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 56px;
+    font-size: 18px;
+    font-weight: bold;
+
+    &__error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: bold;
+
+        margin-bottom: 16px;
+        margin-top: 53px;
+        
+        max-width: 356px;
+        text-align: center;
+    }
+}
+
+.btn_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+
+.yellow_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+
+    width: 129px;
+    height: 40px;
+
+    background: rgb(63, 91, 151);
+    border-radius: 8px;
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}

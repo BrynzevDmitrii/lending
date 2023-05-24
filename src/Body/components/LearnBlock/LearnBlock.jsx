@@ -36,5 +36,10 @@ const anchor = ()=> {
   </li>
 
   <button className={styles.btn_anchor} onClick={()=>anchor()}>Купить курс</button>
+
+  <li className={styles.sertificat}>
+    <div className={styles.icon} />
+    <p className={styles.sertificat__description}>Сертификат после прохождения курса</p>
+  </li>
 </ul>
   )}

@@ -12,7 +12,7 @@ export const SocialFollow = () => {
   return (
     <div className={styles.socialList}>
       <a
-        href="https://vk.com/bohostyle1https://vk.com/bohostyle1"
+        href="https://vk.com/bohostyle1"
         className="Vk social"
       >
         <FontAwesomeIcon icon={faVk} size="2x" />

@@ -49,3 +49,28 @@
     border-radius: 10px;
     margin: 0 auto;
 }
+
+.sertificat {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    
+
+    &__description {
+        font-size: 2rem;
+        color: #555561;
+    }
+}
+
+.icon::after {
+    content: '';
+    background-image: url('./sertifikat.png');
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+}
