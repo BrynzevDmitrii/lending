@@ -1,16 +1,28 @@
+@import '../../../styles/breakepoints';
+
 .item_first::after {
     content: '';
-    background-image: url('./img/blue.jpg');
+    background-image: url('./img/1.jpg');
     background-size:cover;
 
     display: flex;
     background-repeat: no-repeat;
-    background-position: bottom;
 
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     border-radius: 10px;
     margin-right: 20px;
+
+    @include bp-743 {
+        justify-self: center;
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 95vw;
+        height: 300px;
+    }
 }
 
 .item_thecont::after {
@@ -20,12 +32,21 @@
 
     display: flex;
     background-repeat: no-repeat;
-    background-position: bottom;
 
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     border-radius: 10px;
     margin-right: 20px;
+
+    @include bp-743 {
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
 }
 
 .item_third::after {
@@ -35,43 +56,71 @@
 
     display: flex;
     background-repeat: no-repeat;
-    background-position: bottom;
 
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     border-radius: 10px;
     margin-right: 20px;
+
+    @include bp-743 {
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
 }
 
 .item_for::after {
-    content: '';
-    background-image: url('./img/naPalke2.jpg');
-    background-size:cover;
-
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: bottom;
-
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-.item_five::after {
     content: '';
     background-image: url('./img/onStand.jpg');
     background-size:cover;
 
     display: flex;
     background-repeat: no-repeat;
-    background-position: bottom;
 
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+    @include bp-743 {
+       
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
+}
+
+.item_five::after {
+    content: '';
+    background-image: url('./img/naPalke2.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+
+    width: 700px;
+    height: 700px;
     border-radius: 10px;
 
     margin-right: 20px;
+
+    @include bp-743 {
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
 }
 
 .item_six::after {
@@ -81,14 +130,48 @@
 
     display: flex;
     background-repeat: no-repeat;
-    background-position: bottom;
 
-    width: 300px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     border-radius: 10px;
     margin-right: 20px;
+
+    @include bp-743 {
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
+}
+
+.item_se::-webkit-validation-bubble {
+    content: '';
+    background-image: url('./img/rose.jpg');
+    background-size:cover;
+
+    display: flex;
+    background-repeat: no-repeat;
+
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+    @include bp-743 {
+        width: 90vw;
+        height: 700px;
+    }
+
+    @include bp-320 {
+        width: 90vw;
+        height: 300px;
+    }
 }
 
 .box {
     display: flex;
+    margin: 0 auto;
 }
